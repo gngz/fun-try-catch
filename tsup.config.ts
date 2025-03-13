@@ -4,7 +4,7 @@ export default defineConfig({
   entry: ['src/try-catch.ts'],
   splitting: false,
   sourcemap: true,
-  format: 'esm',
+  format: ['cjs', 'esm'],
   minify: true,
   dts: true,
   clean: true,
