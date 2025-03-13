@@ -1,7 +1,7 @@
 {
   "name": "fun-try-catch",
   "version": "1.0.0",
-  "description": "",
+  "description": "A functional try catch for javascript and typescript ",
   "main": "index.js",
   "scripts": {
     "build": "tsup --config tsup.config.ts",
@@ -9,9 +9,14 @@
     "test": "jest --watch",
     "format": "prettier ./src --write"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "try-catch",
+    "functional",
+    "promise",
+    "async"
+  ],
+  "author": "Diogo Passos",
+  "license": "MIT",
   "packageManager": "pnpm@10.6.2",
   "devDependencies": {
     "@eslint/js": "^9.22.0",
