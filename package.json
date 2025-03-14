@@ -12,9 +12,25 @@
     "try-catch",
     "functional",
     "promise",
-    "async"
+    "async",
+    "await",
+    "typescript",
+    "javascript",
+    "try",
+    "catch",
+    "error",
+    "exception",
+    "error-handling"
   ],
-  "author": "Diogo Passos",
+  "author": {
+    "name": "Diogo Passos",
+    "url": "https://diogopassos.pt"
+  },
+  "homepage": "https://github.com/gngz/fun-try-catch",
+  "repository": "https://github.com/gngz/fun-try-catch",
+  "bugs": {
+    "url": "https://github.com/gngz/fun-try-catch/issues"
+  },
   "license": "MIT",
   "packageManager": "pnpm@10.6.2",
   "files": [
@@ -23,9 +39,9 @@
   ],
   "exports": {
     ".": {
+      "types": "./dist/try-catch.d.ts",
       "require": "./dist/try-catch.js",
-      "import": "./dist/try-catch.mjs",
-      "types": "./dist/try-catch.d.ts"
+      "import": "./dist/try-catch.mjs"
     }
   },
   "main": "./dist/try-catch.js",

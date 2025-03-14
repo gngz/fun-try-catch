@@ -6,6 +6,7 @@ export default defineConfig({
   sourcemap: true,
   format: ['cjs', 'esm'],
   minify: true,
+  treeshake: true,
   dts: true,
   clean: true,
   target: 'es2015',
